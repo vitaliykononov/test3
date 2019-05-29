@@ -1,0 +1,55 @@
+body{
+  background-color: #f4f7fe;
+}
+.course{
+  width: 451px;
+  height: 547px;
+  text-align:center;
+  background-color: white;
+  border-radius: 7px;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+  text-decoration: none;
+}
+.course:hover img{
+  opacity:0.8;
+}
+
+img{
+  width: 451px;
+  height: 251px;
+  display:block;
+}
+
+h2{
+  /* Style for "Fundamenta" */
+  margin-top: 45px;
+  padding-left: 89px;
+  padding-right: 89px;
+  color: #12143c;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 31px;
+}
+
+.price{
+  color: #12143c;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  margin-top: 10px;
+}
+
+p{
+  color: #12143c;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 20px;
+  padding-left: 84px;
+  padding-right: 84px;
+}
